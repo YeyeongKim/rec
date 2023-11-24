@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/title"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:text="해당되는 내용에 체크하세요. (중복 체크)"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:text="피로 회복이 필요해요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text2"
+        android:textSize="20dp"
+        android:text="잠을 잘 못자요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text3"
+        android:textSize="20dp"
+        android:text="공부에 집중해야해요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text4"
+        android:textSize="20dp"
+        android:text="컴퓨터, 휴대폰을 많이 봐요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text5"
+        android:textSize="20dp"
+        android:text="뼈, 관절이 아파요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text6"
+        android:textSize="20dp"
+        android:text="자주 어지러워요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text7"
+        android:textSize="20dp"
+        android:text="장이 안 좋아요"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/text8"
+        android:textSize="20dp"
+        android:text="피부가 푸석푸석해요"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:id="@+id/btnResult"
+        android:textSize="20dp"
+        android:text="영양제 추천 받기"/>
+
+</LinearLayout>
